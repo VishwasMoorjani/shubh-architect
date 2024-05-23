@@ -1,0 +1,340 @@
+@media(max-width:1500px) {}
+
+@media(max-width:1400px) {}
+
+@media(max-width:1200px) {}
+
+@media(max-width:1069px) {
+
+    header .headermn .navbar .navbar-brand,
+    .sticky .headermn .navbar .navbar-brand {
+        width: 12%;
+    }
+
+    #sliderr .imgs .imgss h2 {
+        font-size: 68px;
+        line-height: 75px;
+    }
+
+    #about-banner .imgs h3 {
+        left: 30px;
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    #why-chouse .row {
+        padding: 0px 29px 20px;
+    }
+
+    #why-chouse .imgs {
+        margin: 0;
+    }
+
+    #why-chouse .text-infoo h3 {
+        font-size: 30px;
+    }
+
+    #about .about-co h2 {
+        font-size: 160px;
+    }
+
+    #drop .imgs h2 {
+        font-size: 99px;
+    }
+
+    /* about */
+
+    #why-chouse-1 .row {
+        padding: 0px 29px 20px;
+    }
+
+    #why-chouse-1 .imgs {
+        margin: 0;
+    }
+
+    #why-chouse-1 h3 {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:991px) {
+    #sliderr .imgs .imgss {
+        padding: 24px 0px;
+    }
+
+    #sliderr .imgs .imgss h2 {
+        font-size: 55px;
+        line-height: 58px;
+    }
+
+    #about-banner .imgs h3 {
+        left: 23px;
+        font-size: 36px;
+        line-height: 35px;
+        bottom: 30px;
+    }
+
+    #about .content {
+        margin-top: 50px;
+    }
+
+    #about .about-co h2 {
+        font-size: 105px;
+    }
+
+    #about .content h3 {
+        font-size: 78px;
+        padding-left: 30px;
+    }
+
+    #about .content h6 {
+        margin-top: 35px;
+        font-size: 25px;
+    }
+
+    #about .content h3::after {
+        bottom: -14px;
+        left: 30px;
+    }
+
+    #about .content h6 {
+        padding-left: 30px;
+    }
+
+    #about {
+        padding: 50px 0px 0px;
+    }
+
+    #why-chouse-1 .content {
+        padding: 35px 0px;
+    }
+
+    #why-chouse .imgs, #why-chouse-1 .imgs {
+        margin: -45px 0px -20px;
+    }
+
+    #counter .item h3 {
+        font-size: 15px;
+    }
+
+    #counter .item h2 {
+        margin-bottom: 5px;
+        font-size: 50px;
+    }
+
+    #counter .item h2::before {
+        width: 100px;
+    }
+
+    #counter {
+        padding: 0px 0 0px;
+    }
+
+    #services .row {
+        row-gap: 25px;
+    }
+
+    #services {
+        padding: 40px 40px 0px;
+    }
+
+    #blog {
+        padding: 30px 0px 0px;
+    }
+
+    #blog .owl-theme .owl-dots .owl-dot {
+        display: none;
+    }
+
+    #drop {
+        padding: 50px 0px 0px;
+    }
+
+    #drop .imgs h2 {
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width:768px) {}
+
+@media(max-width:643px) {}
+
+@media(max-width:579px) {}
+
+@media(max-width:480px) {
+    
+    header .headermn {
+        padding: 0px 0px;
+    }
+    header .headermn .navbar .navbar-brand, .sticky .headermn .navbar .navbar-brand {
+        width: 45%;
+    }
+
+    header .navbar-nav{align-items: start !important;}
+
+    header .navbar .navbar-nav .nav-link {
+        padding: 12px 25px;
+        transition: .5s;
+        color: #000000;
+        display: block;
+    }
+
+    #sliderr .imgs .imgss h2 {
+        font-size: 60px;
+        line-height: 63px;
+        text-align: start;
+    }
+
+    #sliderr .imgs .btn {
+        text-align: start;
+    }
+
+    #about-banner .imgs h3 {
+        left: 32px;
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    #about .about-co h2 {
+        font-size: 55px;
+    }
+
+    #about .content {
+        margin-top: 27px;
+    }
+
+    #about .content h3 {
+        font-size: 34px;
+        padding-left: 20px;
+    }
+
+    #about .about-co h2 {
+        font-size: 55px;
+    }
+
+    #about {
+        padding: 30px 0px 0px;
+    }
+
+    #about .content h6 {
+        font-size: 16px;
+    }
+
+    #why-chouse {
+        padding: 80px 0px 40px;
+    }
+
+    #why-chouse .row {
+        padding: 0px 0px 20px;
+        row-gap: 25px;
+    }
+
+    #why-chouse .text-infoo{display: block !important; margin-top: 15px;}
+
+    #why-chouse .text-infoo h3 {
+        font-size: 25px;
+    }
+
+    #why-chouse .text-infoo .text {
+        font-size: 16px;
+    }
+
+    #why-chouse .text-infoo .text-one {
+        font-size: 50px;
+    }
+
+    #counter .item h2 {
+        font-size: 30px;
+    }
+
+    #counter .item h3 {
+        margin-top: 8px;
+    }
+
+    #drop .imgs {
+        padding: 51px 78px;
+    }
+
+    #drop .imgs h2 {
+        font-size: 31px;
+    }
+
+    #drop ul{
+        display: block !important;
+        text-align: center;
+    }
+
+    #drop ul li:first-child{width: 100%; margin-bottom: 15px;}
+
+    footer .top {
+        padding: 47px 5px 15px;
+    }
+
+    footer .footerbottom ul{display: block !important;}
+
+    footer .footerbottom .footer-inr{text-align: center; row-gap: 20px;}
+
+    footer .footerbottom ul li img {
+        margin: 15px 0px 5px;
+    }
+
+    footer .footertop .inr {
+        border-left: 1px solid;
+        padding-left: 20px;
+    }
+
+    /* about */
+
+    #why-chouse-1 .content h3 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    #why-chouse-1 .content .tetx {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* contact */
+    
+    #contact .row{row-gap: 25px;}
+    #contact h4 {font-size: 21px;}
+    #contact .text, #contact .text a{font-size: 13px;}
+
+    #contact-from .inr{row-gap: 25px;}
+    #contact-from .from .form-control{margin-bottom: 15px;}
+
+    /* blog-det */
+
+    #blog-det {
+        padding: 0px 0px 1px;
+    }
+
+    #blog-det .content h3 a {
+        font-size: 20px;
+    }
+    
+    #blog-det .content .text {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    #blog-det .content-1 .img-info {
+        margin-bottom: 10px;
+    }
+
+    #services-det h2 {
+        font-size: 23px;
+        margin-bottom: 7px;
+    }
+
+}
+
+
+
+@media(max-width:400px) {}
+
+@media(max-width:359px) {}
